@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional Resume">
-    <title>My Professional Resume</title>
+    <meta name="description" content="Farhan Zinatloo - Unity & C# Developer Resume">
+    <title>Farhan Zinatloo | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -17,10 +17,11 @@
 
     <nav class="glass-nav">
         <div class="nav-content">
-            <div class="logo">Portfolio.</div>
+            <div class="logo">FZ.</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -31,17 +32,17 @@
         <!-- Hero Section -->
         <section id="about" class="hero fade-in">
             <div class="hero-content">
-                <h1 class="glitch" data-text="Hello, I'm [Your Name]">Hello, I'm <span class="highlight">[Your Name]</span></h1>
-                <h2 class="subtitle">Creative Developer & Designer</h2>
-                <p class="bio">I build interactive, modern, and highly performant web applications with a strong focus on aesthetics and user experience.</p>
+                <h1 class="glitch" data-text="Hello, I'm Farhan">Hello, I'm <span class="highlight">Farhan</span></h1>
+                <h2 class="subtitle">Software Engineer | Unity & C# Developer</h2>
+                <p class="bio">A passionate developer specializing in Unity and C#. Experienced in creating complex medical surgical simulations and architecting highly optimized, scalable game systems with a solid foundation in Business Management.</p>
                 <div class="action-buttons">
                     <a href="#contact" class="btn primary-btn">Get In Touch</a>
-                    <a href="#" class="btn secondary-btn"><i class="fas fa-download"></i> Download CV</a>
+                    <a href="https://github.com/Farhanztl" target="_blank" class="btn secondary-btn"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
             <div class="hero-image glass-panel">
                 <div class="avatar-placeholder">
-                    <i class="fas fa-user-astronaut"></i>
+                    <i class="fas fa-gamepad"></i>
                 </div>
             </div>
         </section>
@@ -52,17 +53,34 @@
             <div class="timeline">
                 <div class="timeline-item glass-panel">
                     <div class="timeline-dot"></div>
-                    <div class="timeline-date">2021 - Present</div>
-                    <h3>Senior Frontend Developer</h3>
-                    <h4>Tech Company Inc.</h4>
-                    <p>Led the frontend team in building a scalable, high-performance web application using modern JavaScript frameworks. Improved load time by 40%.</p>
+                    <div class="timeline-date">Present (11 Months)</div>
+                    <h3>Unity Programmer</h3>
+                    <h4>Sina Robotics and Medical Innovators Co.</h4>
+                    <p>Developing advanced medical surgical simulations. Successfully implemented "Real-to-Sim" integration, allowing physical laparoscopy hardware handles to accurately interface and control tools within the 3D Unity environment in real-time.</p>
                 </div>
-                <div class="timeline-item glass-panel">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2018 - 2021</div>
-                    <h3>UI/UX Designer</h3>
-                    <h4>Creative Agency</h4>
-                    <p>Designed intuitive and visually stunning user interfaces for various clients. Created design systems that reduced development time by 30%.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section slide-up">
+            <h2 class="section-title">Notable Projects</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-panel hover-glow" style="text-align: left; padding: 2rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <h3 style="margin-bottom: 0;">Haloward (Tower Defense)</h3>
+                        <a href="https://coruscantbytes.github.io" target="_blank" style="color: var(--accent-1); font-size: 1.2rem;"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <h4 style="color: var(--accent-2); margin-bottom: 15px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Solo Dev | Coruscant Bytes</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 15px;">A highly optimized Tower Defense game built from scratch. Features a robust Data-Driven architecture using ScriptableObjects, zero-allocation Dynamic Object Pooling for 60+ FPS performance, Spine 2D integration, and custom Unity Editor Tools for rapid VFX iteration.</p>
+                </div>
+
+                <div class="skill-card glass-panel hover-glow" style="text-align: left; padding: 2rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <h3 style="margin-bottom: 0;">Stepquest Reward Engine</h3>
+                        <a href="https://assetstore.unity.com/packages/tools/integration/stepquest-active-pedometer-reward-engine-394852" target="_blank" style="color: var(--accent-1); font-size: 1.2rem;"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <h4 style="color: var(--accent-2); margin-bottom: 15px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Unity Asset Store</h4>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem;">Published an integration tool on the official Unity Asset Store. The tool allows developers to easily link real-world step tracking (pedometer data) to in-game rewards and mechanics.</p>
                 </div>
             </div>
         </section>
@@ -71,25 +89,25 @@
         <section id="skills" class="section slide-up">
             <h2 class="section-title">My Skills</h2>
             <div class="skills-grid">
-                <div class="skill-card glass-panel hover-glow">
-                    <i class="fab fa-js skill-icon"></i>
-                    <h3>JavaScript</h3>
-                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                <div class="skill-card glass-panel hover-glow" style="padding: 1.5rem;">
+                    <i class="fab fa-unity skill-icon" style="font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                    <h3 style="margin-bottom: 1rem; color: var(--accent-1);">Game Dev</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">Unity Engine <br> C# Programming <br> Object Pooling <br> Game Architecture</p>
                 </div>
-                <div class="skill-card glass-panel hover-glow">
-                    <i class="fab fa-react skill-icon"></i>
-                    <h3>React / Next.js</h3>
-                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                <div class="skill-card glass-panel hover-glow" style="padding: 1.5rem;">
+                    <i class="fas fa-paint-brush skill-icon" style="font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                    <h3 style="margin-bottom: 1rem; color: var(--accent-1);">Art & Graphics</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">Spine 2D <br> HLSL (Shaders) <br> Adobe Photoshop <br> Premiere Pro</p>
                 </div>
-                <div class="skill-card glass-panel hover-glow">
-                    <i class="fab fa-css3-alt skill-icon"></i>
-                    <h3>Modern CSS</h3>
-                    <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                <div class="skill-card glass-panel hover-glow" style="padding: 1.5rem;">
+                    <i class="fas fa-code skill-icon" style="font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                    <h3 style="margin-bottom: 1rem; color: var(--accent-1);">Web & Data</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">SQL Databases <br> HTML & CSS <br> Data Structures</p>
                 </div>
-                <div class="skill-card glass-panel hover-glow">
-                    <i class="fab fa-node-js skill-icon"></i>
-                    <h3>Node.js</h3>
-                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                <div class="skill-card glass-panel hover-glow" style="padding: 1.5rem;">
+                    <i class="fas fa-briefcase skill-icon" style="font-size: 2.5rem; margin-bottom: 0.5rem;"></i>
+                    <h3 style="margin-bottom: 1rem; color: var(--accent-1);">Other Skills</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">Business Management <br> Fluent English <br> MS Office Suite</p>
                 </div>
             </div>
         </section>
@@ -98,19 +116,22 @@
         <section id="contact" class="section fade-in">
             <div class="contact-card glass-panel">
                 <h2 class="section-title">Let's Work Together</h2>
-                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
-                <div class="social-links">
-                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                    <a href="mailto:email@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <p>Feel free to reach out for collaborations, game development roles, or just a friendly hello!</p>
+                <div class="social-links" style="flex-direction: column; align-items: center; gap: 1.5rem;">
+                    <div style="background: var(--glass-bg); padding: 1rem 2rem; border-radius: 30px; border: 1px solid var(--glass-border); display: flex; align-items: center; gap: 10px;">
+                        <i class="fas fa-envelope text-sky-400"></i>
+                        <span style="color: var(--text-primary); font-size: 1.1rem; user-select: all;">farhan.zinatlou83@gmail.com</span>
+                    </div>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="https://github.com/Farhanztl" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+        <p>&copy; 2026 Farhan Zinatloo. Built for performance and aesthetics.</p>
     </footer>
 
     <script src="script.js"></script>
